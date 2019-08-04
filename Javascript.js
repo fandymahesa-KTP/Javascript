@@ -29,3 +29,18 @@ const kalkulatorB= 200
 const hasil1 = (kalkulatorA + kalkulatorB)
 console.log(hasil1)
 
+let grade = window.prompt("what's your grade");
+let  myGrade="";
+//check if grade is an a,b,c,d,or f 
+if (grade >=90){
+    myGrade ="A";
+}else if (grade >= 80){
+    myGrade="B";
+}else if (grade >= 70){
+    myGrade="C";
+}else if (grade >= 60){
+    myGrade="D";
+}else {
+    myGrade="F";
+}
+console.log(`my grade is ${myGrade}`);
